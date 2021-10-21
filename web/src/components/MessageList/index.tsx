@@ -25,7 +25,7 @@ export function MessageList() {
 
   return (
     <div className={styles.messageListWrapper}>
-      <img src={logoImg} alt="Dowhile" />
+      <img src={logoImg} alt="Do while" />
 
       <ul className={styles.messageList}>
         {messages.map((message) => {
